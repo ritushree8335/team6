@@ -1,0 +1,136 @@
+<html>
+
+<head>
+    <style>
+        table {
+            width: 100%;
+        }
+
+        .mat-form-field {
+            font-size: 14px;
+            width: 100%;
+        }
+
+        .header {
+            border: 1px #870F26 solid;
+            border-radius: 10px;
+            background-color: #870F26;
+            height: 40px;
+            color: #fff;
+            padding: 5px 10px;
+            margin: 10px 0;
+            font-weight: 400;
+            line-height: 25px;
+            font-size: 16px;
+
+        }
+
+        .mat-header-row th {
+            background-color: #870F26 !important;
+            color: #fff !important;
+            font-size: 15px;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar" style="background-color:870F26; color:white;">
+        <!-- Navbar content -->
+        <h2>UNN</h2>
+    </nav>
+    <div class="card">
+        <div class="card-body">
+            <div class="header">View Ticket</div>
+            <form class="needs-validation" novalidate>
+                <div class="form-row" style="padding-bottom: 10px;">
+                    <div class="col-md-2 mb-6">
+                        <label for="validationCustomUsername">Service Request ID</label>
+                    </div>
+                    <div class="col-md-2 mb-6">
+                        <input class="form-control" matinput="" name="workorderNo" placeholder="Service Request ID"
+                            id="mat-input-3" aria-invalid="false" aria-required="false">
+                    </div>
+
+                    <div class="col-md-2 mb-6">
+                        <label for="validationCustomUsername">Service Number</label>
+                    </div>
+                    <div class="col-md-2 mb-6">
+                        <input class="form-control" matinput="" name="workorderNo" placeholder="Service Number"
+                            id="mat-input-3" aria-invalid="false" aria-required="false">
+                    </div>
+
+                    <div class="col-md-2 mb-6">
+                        <label for="validationCustomUsername">Current Status</label>
+                    </div>
+                    <div class="col-md-2 mb-6">
+                        <input class="form-control" matinput="" name="workorderNo" placeholder="Current Status"
+                            id="mat-input-3" aria-invalid="false" aria-required="false">
+                    </div>
+                </div>
+                <div class="form-row" style="padding-bottom: 10px;">
+                    <div class="col-md-2 mb-6">
+                        <label for="validationCustomUsername">Service Group</label>
+                    </div>
+                    <div class="col-md-2 mb-6">
+                        <input class="form-control" matinput="" name="workorderNo" placeholder="Service Group"
+                            id="mat-input-3" aria-invalid="false" aria-required="false">
+                    </div>
+                    <div class="col-md-2 mb-6">
+                        <label for="validationCustomUsername">Service Type</label>
+                    </div>
+                    <div class="col-md-2 mb-6">
+                        <input class="form-control" matinput="" name="workorderNo" placeholder="Service Type"
+                            id="mat-input-3" aria-invalid="false" aria-required="false">
+                    </div>
+                    <div class="col-md-2 mb-6">
+                        <label for="validationCustomUsername">Order Type</label>
+                    </div>
+                    <div class="col-md-2 mb-6">
+                        <input class="form-control" matinput="" name="workorderNo" placeholder="Work Order Number"
+                            id="mat-input-3" aria-invalid="false" aria-required="false">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-md-2 mb-6">
+                        <label for="validationCustomUsername">Plan Name</label>
+                    </div>
+                    <div class="col-md-2 mb-6">
+                        <input class="form-control" matinput="" name="workorderNo" placeholder="Plan Name"
+                            id="mat-input-3" aria-invalid="false" aria-required="false">
+                    </div>
+
+                    <div class="col-md-2 mb-6">
+                        <label for="validationCustomUsername">Ready For Service Date</label>
+                    </div>
+                    <div class="col-md-2 mb-6">
+                        <input class="form-control" matinput="" name="workorderNo" placeholder="Ready For Service Date"
+                            id="mat-input-3" aria-invalid="false" aria-required="false">
+                    </div>
+                    <div class="col-md-2 mb-6">
+                        <label for="validationCustomUsername">Work Order Number</label>
+                    </div>
+                    <div class="col-md-2 mb-6">
+                        <input class="form-control" matinput="" name="workorderNo" placeholder="Work Order Number"
+                            id="mat-input-3" aria-invalid="false" aria-required="false">
+                    </div>
+                </div>
+
+                <!-- <button class="btn" style="background-color:870F26; color:white;" type="submit">Search</button> -->
+            </form>
+            <button class="btn" style="background-color:870F26; color:white;" type="submit">Search</button>
+        </div>
+    </div>
+</body>
+
+</html>
